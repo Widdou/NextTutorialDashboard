@@ -32,6 +32,14 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
+          
+          <div className='flex items-center'>
+            <Link 
+              href="/dashboard"
+              className='bg-blue-500 text-white rounded-lg p-3 hover:bg-blue-400'
+            >Go to Dashboard</Link>
+          </div>
+          
           {/* Add Hero Images Here */}
           <Image
             src="/hero-desktop.png"
